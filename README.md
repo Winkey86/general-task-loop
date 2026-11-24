@@ -2,10 +2,10 @@
 
 Два скилла для задач в Claude Code и Codex.
 
-- [`my-task-loop`](skills/my-task-loop/SKILL.md) проводит по согласуемым этапам от разбора и постановки до приёмки. Внешний [Spec Kit](https://github.com/github/spec-kit) готовит полную спеку в репозитории задачи до `tasks.md` включительно.
-- [`sam-reshu`](skills/sam-reshu/SKILL.md) согласует границы в начале и дальше ведёт задачу самостоятельно до проверенного результата или PR/MR.
+- [`my-task-loop`](skills/my-task-loop/SKILL.md) проводит по согласуемым этапам от разбора до вливания и совместной приёмки.
+- [`sam-reshu`](skills/sam-reshu/SKILL.md) согласует границы в начале и дальше ведёт задачу самостоятельно до приёмки.
 
-[Шаблон постановки](skills/my-task-loop/references/postanovka-template.md)
+Постановка и полный пакет [Spec Kit](https://github.com/github/spec-kit) до `tasks.md` идут в одном PR/MR с фичей. Постановка также публикуется в Вики проекта. [Шаблон постановки](skills/my-task-loop/references/postanovka-template.md)
 
 ## Установка
 
